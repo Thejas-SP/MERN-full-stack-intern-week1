@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio showcasing education, skills, projects, and contact information.">
+    <title>My Portfolio | Computer Science Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">MyPortfolio</a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="tagline">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Hello, I'm <span>Thejas SP</span></h1>
+
+                <h2>Computer Science Engineering Student</h2>
+
+                <p>
+                    I am passionate about Python programming, web development,
+                    Java, data structures, and building useful software projects.
+                    I enjoy learning new technologies and improving my skills.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button">View My Projects</a>
+                    <a href="#contact" class="button button-outline">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="container">
+                <p class="section-label">GET TO KNOW ME</p>
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about-card">
+                    <h3>Aspiring Software Developer</h3>
+
+                    <p>
+                        I am a Computer Science and Engineering student interested
+                        in developing practical software applications. I am
+                        building my knowledge of frontend development, Python,
+                        Java, data structures and algorithms, and full-stack
+                        development.
+                    </p>
+
+                    <p>
+                        My goal is to strengthen my programming skills by working
+                        on projects, solving problems, and learning modern
+                        development tools.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section section-light" id="education">
+            <div class="container">
+                <p class="section-label">MY ACADEMIC BACKGROUND</p>
+                <h2 class="section-title">Education</h2>
+
+                <div class="info-card">
+                    <h3>Bachelor of Engineering — Computer Science</h3>
+                    <p>JSS Academy of Technical Education, Bengaluru</p>
+                    <p>Currently pursuing my undergraduate degree.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <div class="container">
+                <p class="section-label">WHAT I AM LEARNING</p>
+                <h2 class="section-title">My Skills</h2>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <span>01</span>
+                        <h3>HTML & CSS</h3>
+                        <p>Building and styling responsive web pages.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span>02</span>
+                        <h3>JavaScript</h3>
+                        <p>Learning interactive and dynamic web development.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span>03</span>
+                        <h3>Python</h3>
+                        <p>Programming fundamentals and problem-solving.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span>04</span>
+                        <h3>Java & DSA</h3>
+                        <p>Object-oriented programming and algorithms.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span>05</span>
+                        <h3>React</h3>
+                        <p>Learning reusable components and dynamic interfaces.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span>06</span>
+                        <h3>Git & GitHub</h3>
+                        <p>Learning version control and project sharing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section section-light" id="projects">
+            <div class="container">
+                <p class="section-label">MY WORK</p>
+                <h2 class="section-title">Projects</h2>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-number">PROJECT 01</div>
+                        <h3>Gym Management System</h3>
+                        <p>
+                            A software project concept for organizing gym
+                            memberships, member information, and gym operations.
+                        </p>
+                        <p class="project-tech">Technology: Update with actual tools used</p>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-number">PROJECT 02</div>
+                        <h3>Personal Portfolio Website</h3>
+                        <p>
+                            A responsive personal website presenting my
+                            education, technical skills, and projects.
+                        </p>
+                        <p class="project-tech">HTML, CSS, JavaScript</p>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-number">PROJECT 03</div>
+                        <h3>React Blog UI</h3>
+                        <p>
+                            A blog interface that displays posts dynamically
+                            and lets users search and filter articles.
+                        </p>
+                        <p class="project-tech">React, JavaScript, CSS, JSON</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <div class="container">
+                <p class="section-label">LET'S CONNECT</p>
+                <h2 class="section-title">Contact Me</h2>
+
+                <div class="contact-card">
+                    <p>
+                        I am interested in learning, collaborating, and
+                        connecting with people in the technology field.
+                    </p>
+
+                    <form id="contactForm">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name"
+                               placeholder="Enter your name" required>
+
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email"
+                               placeholder="Enter your email" required>
+
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5"
+                                  placeholder="Write your message" required></textarea>
+
+                        <button type="submit" class="button">Send Message</button>
+                    </form>
+
+                    <p id="formStatus" class="form-status" aria-live="polite"></p>
+
+                    <p class="contact-note">
+                        Connect with me on
+                        <a href="https://www.linkedin.com/" target="_blank"
+                           rel="noopener noreferrer">LinkedIn</a>
+                        and
+                        <a href="https://github.com/" target="_blank"
+                           rel="noopener noreferrer">GitHub</a>.
+                        Replace these links with your own profiles.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> Thejas SP. Built with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
